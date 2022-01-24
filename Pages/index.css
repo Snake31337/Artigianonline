@@ -1,0 +1,21 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-title-container {
+    width: 15%;
+}
+
+.links {
+    width: 85%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+}
