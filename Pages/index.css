@@ -1,14 +1,27 @@
+
+/*
+    Navbar
+*/
+
 .navbar-container {
     display: flex;
+    height: 50px;
     align-items: center;
+    width: 100%;
+    background: rgb(162,251,63);
+    background: radial-gradient(circle, rgba(162,251,63,1) 35%, rgba(251,194,68,1) 74%, rgba(70,252,76,1) 100%); 
 }
 
 .site-title-container {
-    width: 15%;
+    width: 80%;
 }
 
 .links {
-    width: 85%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
 }
 
 .logo-container {
@@ -18,4 +31,37 @@
 
 .logo {
     width: 40px;
+}
+
+.navbar-link {
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+    color: green;
+}
+
+.navbar-link:hover {
+    border-bottom: 3px solid green;
+    color: darkgreen;
+}
+
+.logo-link {
+    color: green;
+}
+
+.logo-link:hover {
+    border-bottom: 3px solid transparent;
+}
+
+/*
+Main
+*/
+
+.main {
+    background-image: url(../Images/background-image.jpg);
+    height: 100vh;
 }
