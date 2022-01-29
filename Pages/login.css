@@ -1,0 +1,21 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form {
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    background: rgb(162,251,63);
+    background: radial-gradient(circle, rgba(162,251,63,1) 35%, rgba(251,194,68,1) 74%, rgba(70,252,76,1) 100%);
+}
+
+.login-form-element {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+CREATE TABLE recensiona (
+    recensione varchar(255) NOT NULL,
+    CodiceArtigiano int NOT NULL,
+    CodiceImprenditore int NOT NULL,
+    FOREIGN KEY (CodiceArtigiano) REFERENCES artigiano(CodiceArtigiano),
+    FOREIGN KEY (CodiceImprenditore) REFERENCES imprenditore(CodiceImprenditore)
+
+
+);

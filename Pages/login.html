@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artigianonline - Login</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
-    
+    <nav class="navbar-container">
+        <div class="site-title-container">
+            <div class="logo-container" href="#">
+                <img class="logo" src="../Images/logo.png" alt="Logo">
+                <a href="#" class="logo-link navbar-link">Artigianonline</a>
+            </div>
+
+        </div>
+        <div class="links">
+            <a href="index.html" class="navbar-link">Home</a>
+            <a href="index.html" class="navbar-link">Home</a>
+            <a href="login.html" class="navbar-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="login-container">
+            <div class="login-form">
+                <form action="../api/api.php" method="POST">
+                    <div class="login-form-username login-form-element">
+                        <label for="username">Username</label>
+                        <input type="text" name="Username" id="username" placeholder="Inserisci il tuo username">
+                    </div>
+                    <div class="login-form-password login-form-element">
+                        <label for="password">Password</label>
+                        <input type="password" name="Password" id="password" placeholder="Inserisci la tua password">
+                    </div>
+
+                    <input class="login-form-element" type="submit" value="Invia">
+                    <a href="registrazione.html" class="navbar-link">Non sei ancora registrato? Registrati</a>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
